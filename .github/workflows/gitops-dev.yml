@@ -22,7 +22,7 @@ jobs:
 
       - name: Login to Amazon ECR
         run: |
-          docker login -u AWS -p $(aws ecr-public get-login-password) public.ecr.aws
+          docker login -u AWS -p $(aws ecr-public get-login-password --region us-east-1) public.ecr.aws
 
       - name: Build, tag, and push image to Amazon ECR
         id: ecr
