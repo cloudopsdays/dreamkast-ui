@@ -37,7 +37,7 @@ jobs:
           echo SHA ${{ github.sha }}
           IMAGE_TAG=$(echo "${{ github.ref }}" | sed -e 's,.*/\(.*\),\1,')
           [[ "${{ github.ref }}" == "refs/tags/"* ]] && IMAGE_TAG=$(echo $IMAGE_TAG | sed -e 's/^v//')
-          [[ -n ${{ github.head_ref }} ]] && IMAGE_TAG=${{ github.head_ref }}
+          [[ -n "${{ github.head_ref }}" ]] && IMAGE_TAG=${{ github.head_ref }}
           CACHE_BASE=$ECR_REGISTRY/$ECR_REPOSITORY:base-cache
           IMAGE_WITH_TAG=$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
           IMAGE_WITH_SHA=$ECR_REGISTRY/$ECR_REPOSITORY:${{ github.sha }}
