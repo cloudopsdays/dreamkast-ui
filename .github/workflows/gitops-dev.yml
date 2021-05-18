@@ -37,20 +37,17 @@ jobs:
           echo SHA ${{ github.sha }}
           IMAGE_TAG=$(echo "${{ github.ref }}" | sed -e 's,.*/\(.*\),\1,')
           [[ "${{ github.ref }}" == "refs/tags/"* ]] && IMAGE_TAG=$(echo $IMAGE_TAG | sed -e 's/^v//')
-          if [ ! -e ${{ github.head_ref }} ]; then
-            IMAGE_TAG=${{ github.head_ref }}
-          fi
+          [[ -n "${{ github.head_ref }}" ]] && IMAGE_TAG=${{ github.head_ref }}
           CACHE_BASE=$ECR_REGISTRY/$ECR_REPOSITORY:base-cache
           IMAGE_WITH_TAG=$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
           IMAGE_WITH_SHA=$ECR_REGISTRY/$ECR_REPOSITORY:${{ github.sha }}
+
           docker build \
             --cache-from=$CACHE_BASE \
             --build-arg=BUILDKIT_INLINE_CACHE=1 \
             -t $IMAGE_WITH_TAG \
             -t $IMAGE_WITH_SHA .
           docker build --target base -t $CACHE_BASE --build-arg=BUILDKIT_INLINE_CACHE=1  .
-          docker tag $IMAGE_WITH_TAG $IMAGE_WITH_SHA
-          docker push $IMAGE_WITH_TAG
           docker push $IMAGE_WITH_SHA
           docker push $CACHE_BASE
           echo "::set-output name=IMAGE_TAG::${IMAGE_TAG}"
