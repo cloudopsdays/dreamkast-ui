@@ -13,12 +13,6 @@ export const DesktopMenu: React.FC<Props> = ({ url }) => {
       <CommonStyled.MenuLink href="/codt2021/ui#booths" rel="noreferrer">
         <Button style={{ color: '#037f8c' }}>Booths</Button>
       </CommonStyled.MenuLink>
-      <CommonStyled.MenuLink href="/codt2021/ui/discussionboard" rel="noreferrer">
-        <Button style={{ color: '#037f8c' }}>DiscussionBoard</Button>
-      </CommonStyled.MenuLink>
-      <CommonStyled.MenuLink href="/codt2021/timetables" rel="noreferrer">
-        <Button style={{ color: '#037f8c' }}>Timetable</Button>
-      </CommonStyled.MenuLink>
       <Button href={url} style={{ color: '#037f8c' }}>
         Logout
       </Button>
