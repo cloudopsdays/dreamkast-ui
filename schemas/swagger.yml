@@ -344,7 +344,7 @@ components:
       example:
         id: 2
         name: "CloudNative Days Spring 2020 ONLINE"
-        abbr: "cndo2021"
+        abbr: "codt2021"
         status: "closed"
         theme: "ともに踏み出すCloudNative祭"
         about: "『クラウドネイティブ』って何だっけ？ 私たち自身ずっと考えてきました。"
@@ -556,7 +556,7 @@ components:
           name: スポンサー1株式会社
           abbr: sponsor1
           url: https://example.com/
-          logo_url: cndo2021/trademark.png
+          logo_url: codt2021/trademark.png
         - id: 2
           conference_id: 2
           name: スポンサー2株式会社
