@@ -25,6 +25,40 @@ exports[`Layout 1`] = `
         >
           <a
             className="sc-kfzAmx dLIGSx"
+            href="/codt2021/timetables"
+            rel="noreferrer"
+          >
+            <button
+              className="MuiButtonBase-root MuiButton-root MuiButton-text"
+              disabled={false}
+              onBlur={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              style={
+                Object {
+                  "color": "#037f8c",
+                }
+              }
+              tabIndex={0}
+              type="button"
+            >
+              <span
+                className="MuiButton-label"
+              >
+                オンデマンドセッション
+              </span>
+            </button>
+          </a>
+          <a
+            className="sc-kfzAmx dLIGSx"
             href="/codt2021/ui#booths"
             rel="noreferrer"
           >
@@ -53,7 +87,7 @@ exports[`Layout 1`] = `
               <span
                 className="MuiButton-label"
               >
-                Booths
+                ブース
               </span>
             </button>
           </a>
@@ -83,7 +117,7 @@ exports[`Layout 1`] = `
             <span
               className="MuiButton-label"
             >
-              Logout
+              ログアウト
             </span>
           </button>
         </div>
@@ -91,74 +125,6 @@ exports[`Layout 1`] = `
       <div
         className="sc-fodVxV gJEXNK"
       >
-        <a
-          className="sc-kfzAmx dLIGSx"
-          href="/codt2021/ui#booths"
-          rel="noreferrer"
-        >
-          <button
-            className="MuiButtonBase-root MuiButton-root MuiButton-text"
-            disabled={false}
-            onBlur={[Function]}
-            onDragLeave={[Function]}
-            onFocus={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-            onMouseDown={[Function]}
-            onMouseLeave={[Function]}
-            onMouseUp={[Function]}
-            onTouchEnd={[Function]}
-            onTouchMove={[Function]}
-            onTouchStart={[Function]}
-            style={
-              Object {
-                "color": "#037f8c",
-              }
-            }
-            tabIndex={0}
-            type="button"
-          >
-            <span
-              className="MuiButton-label"
-            >
-              Booths
-            </span>
-          </button>
-        </a>
-        <a
-          className="sc-kfzAmx dLIGSx"
-          href="/codt2021/ui/discussionboard"
-          rel="noreferrer"
-        >
-          <button
-            className="MuiButtonBase-root MuiButton-root MuiButton-text"
-            disabled={false}
-            onBlur={[Function]}
-            onDragLeave={[Function]}
-            onFocus={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-            onMouseDown={[Function]}
-            onMouseLeave={[Function]}
-            onMouseUp={[Function]}
-            onTouchEnd={[Function]}
-            onTouchMove={[Function]}
-            onTouchStart={[Function]}
-            style={
-              Object {
-                "color": "#037f8c",
-              }
-            }
-            tabIndex={0}
-            type="button"
-          >
-            <span
-              className="MuiButton-label"
-            >
-              Discussion
-            </span>
-          </button>
-        </a>
         <a
           className="sc-kfzAmx dLIGSx"
           href="/codt2021/timetables"
@@ -189,7 +155,41 @@ exports[`Layout 1`] = `
             <span
               className="MuiButton-label"
             >
-              Timetable
+              オンデマンドセッション
+            </span>
+          </button>
+        </a>
+        <a
+          className="sc-kfzAmx dLIGSx"
+          href="/codt2021/ui#booths"
+          rel="noreferrer"
+        >
+          <button
+            className="MuiButtonBase-root MuiButton-root MuiButton-text"
+            disabled={false}
+            onBlur={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            style={
+              Object {
+                "color": "#037f8c",
+              }
+            }
+            tabIndex={0}
+            type="button"
+          >
+            <span
+              className="MuiButton-label"
+            >
+              ブース
             </span>
           </button>
         </a>
@@ -219,7 +219,7 @@ exports[`Layout 1`] = `
           <span
             className="MuiButton-label"
           >
-            Logout
+            ログアウト
           </span>
         </button>
       </div>
@@ -233,7 +233,7 @@ exports[`Layout 1`] = `
   >
     <a
       className="sc-gKsewC giTXZJ"
-      href="https://event.cloudnativedays.jp/codt2021/privacy"
+      href="https://cloudopsdays.com/privacy-policy/"
       rel="noopener noreferrer"
       target="_blank"
     >
@@ -241,7 +241,7 @@ exports[`Layout 1`] = `
     </a>
     <a
       className="sc-gKsewC giTXZJ"
-      href="https://event.cloudnativedays.jp/codt2021/coc"
+      href="https://cloudopsdays.com/conduct/"
       rel="noopener noreferrer"
       target="_blank"
     >
@@ -250,7 +250,7 @@ exports[`Layout 1`] = `
     <div
       className="sc-jSgupP dTmTMX"
     >
-      © CloudNative Days Spring 2021 ONLINE (Secretariat by Impress Corporation)
+      © Cloud Operator Days Tokyo 2021
     </div>
   </footer>
 </div>

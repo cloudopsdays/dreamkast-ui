@@ -4,16 +4,12 @@ import { Talk } from '../../client-axios'
 
 type Props = {
   selectedTalk?: Talk
-  selectedTrackName?: string
 }
 
-export const TalkInfo: React.FC<Props> = ({
-  selectedTalk,
-  selectedTrackName,
-}) => {
+export const TalkInfo: React.FC<Props> = ({ selectedTalk }) => {
   const twitterURL = (trackName?: string) => {
     const base =
-      'http://twitter.com/share?url=https://event.cloudnativedays.jp/codt2021&related=@cloudnativedays&hashtags=codt2021'
+      'http://twitter.com/share?url=https://cloudopsdays.com&related=@cloudopsdays&hashtags=codt2021'
     if (!trackName) return base
     return base + '_' + trackName
   }
@@ -43,20 +39,11 @@ export const TalkInfo: React.FC<Props> = ({
           一緒に盛り上がろう
         </Styled.SocialHeader>
         <Styled.ButtonContainer>
-          <Styled.ButtonLink href="https://discord.gg/bvuTMNQ" target="_blank">
-            <Styled.DiscordButton>
-              <Styled.DiscordImg src="/codt2021/ui/images/discord_logo.png" />
-              Ask the speaker
-            </Styled.DiscordButton>
-          </Styled.ButtonLink>
           <div style={{ paddingRight: '8px' }} />
-          <Styled.ButtonLink
-            href={twitterURL(selectedTrackName)}
-            target="_blank"
-          >
+          <Styled.ButtonLink href={twitterURL()} target="_blank">
             <Styled.TweetButton>
               <Styled.TwitterImg src="/codt2021/ui/images/twitter_logo.png" />
-              tweet #codt2021_{selectedTrackName}
+              tweet #codt2021
             </Styled.TweetButton>
           </Styled.ButtonLink>
         </Styled.ButtonContainer>

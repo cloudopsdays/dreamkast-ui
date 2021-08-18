@@ -15,7 +15,7 @@ const IndexPage: React.FC = () => {
   }, [router])
 
   return (
-    <Layout title="CloudNative Days 2021">
+    <Layout title="Cloud Operator Days 2021">
       <BoothPage boothId={id} />
     </Layout>
   )

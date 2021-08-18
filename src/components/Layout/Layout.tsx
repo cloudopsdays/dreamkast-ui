@@ -25,7 +25,7 @@ export const Layout: React.FC<Props> = ({
     <Styled.Container>
       <Head>
         <title>{title}</title>
-        <link rel="shortcut icon" href="/codt2021/ui/trademark.svg" />
+        <link rel="shortcut icon" href="/codt2021/ui/favicon.ico" />
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
@@ -43,23 +43,20 @@ export const Layout: React.FC<Props> = ({
       <Styled.ChildrenContainer>{children}</Styled.ChildrenContainer>
       <Styled.Footer>
         <Styled.FooterLink
-          href="https://event.cloudnativedays.jp/codt2021/privacy"
+          href="https://cloudopsdays.com/privacy-policy/"
           target="_blank"
           rel="noopener noreferrer"
         >
           プライバシーポリシー
         </Styled.FooterLink>
         <Styled.FooterLink
-          href="https://event.cloudnativedays.jp/codt2021/coc"
+          href="https://cloudopsdays.com/conduct/"
           target="_blank"
           rel="noopener noreferrer"
         >
           行動規範
         </Styled.FooterLink>
-        <Styled.FooterText>
-          © CloudNative Days Spring 2021 ONLINE (Secretariat by Impress
-          Corporation)
-        </Styled.FooterText>
+        <Styled.FooterText>© Cloud Operator Days Tokyo 2021</Styled.FooterText>
       </Styled.Footer>
     </Styled.Container>
   )
