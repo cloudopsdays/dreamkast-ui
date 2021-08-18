@@ -45,39 +45,6 @@ exports[`TalkInfo 1`] = `
     <div
       className="sc-pFZIQ hxExeM"
     >
-      <a
-        className="sc-jrAGrp jUAzA-d"
-        href="https://discord.gg/bvuTMNQ"
-        target="_blank"
-      >
-        <button
-          className="MuiButtonBase-root MuiButton-root MuiButton-text sc-kEjbxe smZCm"
-          disabled={false}
-          onBlur={[Function]}
-          onDragLeave={[Function]}
-          onFocus={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-          onMouseDown={[Function]}
-          onMouseLeave={[Function]}
-          onMouseUp={[Function]}
-          onTouchEnd={[Function]}
-          onTouchMove={[Function]}
-          onTouchStart={[Function]}
-          tabIndex={0}
-          type="button"
-        >
-          <span
-            className="MuiButton-label"
-          >
-            <img
-              className="sc-iqHYGH fhKGze"
-              src="/codt2021/ui/images/discord_logo.png"
-            />
-            Ask the speaker
-          </span>
-        </button>
-      </a>
       <div
         style={
           Object {
@@ -87,11 +54,11 @@ exports[`TalkInfo 1`] = `
       />
       <a
         className="sc-jrAGrp jUAzA-d"
-        href="http://twitter.com/share?url=https://event.cloudnativedays.jp/codt2021&related=@cloudnativedays&hashtags=codt2021"
+        href="http://twitter.com/share?url=https://cloudopsdays.com&related=@cloudopsdays&hashtags=codt2021"
         target="_blank"
       >
         <button
-          className="MuiButtonBase-root MuiButton-root MuiButton-text sc-crrsfI dqefnU"
+          className="MuiButtonBase-root MuiButton-root MuiButton-text sc-kEjbxe deHcyM"
           disabled={false}
           onBlur={[Function]}
           onDragLeave={[Function]}
@@ -111,10 +78,10 @@ exports[`TalkInfo 1`] = `
             className="MuiButton-label"
           >
             <img
-              className="sc-dQppl fxCwta"
+              className="sc-iqHYGH RBerV"
               src="/codt2021/ui/images/twitter_logo.png"
             />
-            tweet #codt2021_
+            tweet #codt2021
           </span>
         </button>
       </a>

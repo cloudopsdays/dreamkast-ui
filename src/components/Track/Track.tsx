@@ -156,10 +156,7 @@ export const TrackView: React.FC<Props> = ({
         <Chat profile={profile} talk={selectedTalk} />
       </Grid>
       <Grid item xs={12} md={8} style={{ height: '100%' }}>
-        <TalkInfo
-          selectedTalk={selectedTalk}
-          selectedTrackName={selectedTrack?.name}
-        />
+        <TalkInfo selectedTalk={selectedTalk} />
       </Grid>
       <Grid item xs={12} md={4} style={{ height: '100%' }}>
         <TalkSelector

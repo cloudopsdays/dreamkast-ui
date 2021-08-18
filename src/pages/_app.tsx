@@ -47,7 +47,7 @@ export default function Dreamkast({
   return (
     <React.Fragment>
       <Head>
-        <title>CloudNative Days player</title>
+        <title>Cloud Ops Days player</title>
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"

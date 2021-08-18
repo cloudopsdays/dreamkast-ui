@@ -73,24 +73,6 @@ export const ButtonLink = styled.a`
   text-decoration: none;
 `
 
-export const DiscordButton = styled(Button)`
-  display: flex;
-  align-items: center;
-  font-size: 16px;
-  padding-right: 10px;
-  color: #ffffff;
-  background-color: #7289da;
-  &:hover {
-    background-color: #9aabe4;
-  }
-`
-
-export const DiscordImg = styled.img`
-  height: 1.7em;
-  vertical-align: middle;
-  padding-right: 5px;
-`
-
 export const TweetButton = styled(Button)`
   display: flex;
   align-items: center;

@@ -233,7 +233,7 @@ exports[`Layout 1`] = `
   >
     <a
       className="sc-gKsewC giTXZJ"
-      href="https://event.cloudnativedays.jp/codt2021/privacy"
+      href="https://cloudopsdays.com/privacy-policy/"
       rel="noopener noreferrer"
       target="_blank"
     >
@@ -241,7 +241,7 @@ exports[`Layout 1`] = `
     </a>
     <a
       className="sc-gKsewC giTXZJ"
-      href="https://event.cloudnativedays.jp/codt2021/coc"
+      href="https://cloudopsdays.com/conduct/"
       rel="noopener noreferrer"
       target="_blank"
     >
@@ -250,7 +250,7 @@ exports[`Layout 1`] = `
     <div
       className="sc-jSgupP dTmTMX"
     >
-      © CloudNative Days Spring 2021 ONLINE (Secretariat by Impress Corporation)
+      © Cloud Operator Days Tokyo 2021
     </div>
   </footer>
 </div>
