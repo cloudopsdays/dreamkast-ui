@@ -29,7 +29,7 @@ export const Booths: React.FC<Props> = ({ openNewWindow }) => {
 
   const boothUrl = (id?: number) => {
     if (!id) return
-    return '/codt2021/ui/booths/' + id
+    return '/codt2021/booths/' + id
   }
 
   return (
