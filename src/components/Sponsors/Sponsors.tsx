@@ -51,9 +51,7 @@ export const Sponsors: React.FC = () => {
       <Styled.CNDOSlider {...settings}>
         {data.map((sponsor) => (
           <Styled.Sponsor key={sponsor.id}>
-            <a href={sponsor.url} target="_blank">
-              <Styled.SponsorImg src={sponsor.logo_url} />
-            </a>
+            <Styled.SponsorImg src={sponsor.logo_url} />
           </Styled.Sponsor>
         ))}
       </Styled.CNDOSlider>
